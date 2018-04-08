@@ -1,0 +1,379 @@
+body {
+	background-color: #30423b;
+}
+
+/*Foundation Topbar */
+#rmainNav {
+  font-family: 'Nunito', sans-serif;
+   }
+
+#navList ul {
+  padding-right: 30px;
+}
+
+#navList ul li a {
+font-family: 'Nunito', sans-serif;
+  font-size: 1em;
+  text-align: right;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+
+#navigationList {
+  margin-top: 70px;
+  position: absolute;
+  z-index: 1999;
+}
+
+  #navigationList ul {
+    font-size: 1em;
+    list-style-type: none;
+    text-align: right;
+		margin-top: 30px;
+    padding: 10px; }
+
+  #navigationList li {
+    margin-bottom: 30px; }
+
+  #navigationList a {
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    color: black;
+	}
+
+	#navigationList a:hover {
+		color: white;
+	}
+
+
+/*  Nav Medium and up */
+@media screen and (min-width: 40em) {
+  #navBar {
+    padding-top: 20px;
+	}
+
+  #navigationList {
+    margin: 20px 0px 20px 0px;
+    padding-top: 100px;
+    position: block;
+    height: 100px;
+    background: none;
+	}
+
+    #navigationList ul {
+      font-size: 1em;
+      color: #ffffff;
+			width: 100%;
+			text-align:center;
+		}
+
+    #navigationList li {
+      margin-bottom: 0px;
+      display: inline;
+      position: block;
+		}
+
+		}
+
+
+.loginBut {
+font-family: 'Nunito', sans-serif;
+	font-size: 90pt;
+	text-decoration: none;
+	color: #000000;
+	background-color: #ffffff;
+	border: 10px solid #ffffff;
+}
+
+
+.listBut {
+	font-family: 'Nunito', sans-serif;
+	font-size: 12pt;
+	text-decoration: none;
+	color: #000000;
+	background-color: #ffffff;
+	border: 2px solid #ffffff;
+	align: center;
+	padding: 10px 10px;
+	border: 2px solid #5b7f6f;
+}
+
+.listBut:hover {
+font-family: 'Nunito', sans-serif;
+font-size: 12pt;
+color: white;
+background-color: #5b7f6f;
+}
+
+
+h1, h2 {
+	font-family: 'Nunito', sans-serif;
+	color: #e8e8e8;
+  font-size: 24pt;
+	font-weight: 400;
+	text-align: center;
+}
+
+h3, h4, h5, h6 {
+	font-family: 'Nunito', sans-serif;
+	color: #e8e8e8;
+  font-size: 18pt;
+}
+
+p, li, a {
+	font-family: 'Nunito', sans-serif;
+	font-size: 14pt;
+	color: #e8e8e8;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.hidden {
+	display: none;
+}
+
+.moreDetails {
+	color: #5b7f6f;
+	text-decoration: underline;
+}
+
+.moreDetails:hover {
+	color: #e8e8e8;
+}
+
+.detailsImage {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+		padding-bottom: 20px;
+}
+
+#back {
+ 	 font-family: 'Nunito', sans-serif;
+	 margin-top: 5px;
+	 margin-left: 5px;
+	 padding: 0;
+	 width: 5%;
+	 font-size: 10pt;
+	 text-decoration: none;
+  	color: #000000;
+  	background-color: white;
+  	border: 2px solid #5b7f6f;
+}
+
+#welcomeMsg {
+	font-family: 'Nunito', sans-serif;
+	font-size: 30pt;
+	color:#e8e8e8;
+	display: block;
+	width: 70vw;
+	max-width: 400px;
+	margin: 20vh auto 50px auto;
+}
+
+form input {
+	width: 300px;
+	height: 40px;
+	display: block;
+	margin: 0 auto;
+	border: 2px solid #5b7f6f;
+
+}
+
+.box {
+	display: block;
+	margin: 0 auto;
+	border: 2px solid #5b7f6f;
+}
+
+
+#submit {
+	margin-top: 10px;
+	font-family: 'Nunito', sans-serif;
+	font-size: 10pt;
+	text-decoration: none;
+	color: #000000;
+	background-color: #e8e8e8;
+	padding-bottom: 10px;
+	padding-top: 5px;
+  border: 2px solid #e8e8e8;
+}
+
+.errorTxt {
+	text-align: center;
+}
+
+
+ #login {
+	font-family: 'Nunito', sans-serif;
+ 	font-size: 14pt;
+ 	text-decoration: none;
+ 	color: #000000;
+ 	background-color: #e8e8e8;
+ 	border: 2px solid #e8e8e8;
+}
+
+#login:hover {
+font-family: 'Nunito', sans-serif;
+font-size: 14pt;
+color: #e8e8e8;
+background-color: #5b7f6f;
+}
+
+.formLabel {
+color: white;
+display: block;
+width: 70vw;
+max-width: 300px;
+margin: 4vh auto 4px auto;
+}
+
+
+.formLevel {
+  font-family: 'Nunito', sans-serif;
+  font-size: 10pt;
+  text-decoration: none;
+  color: white;
+	text-align: center;
+	margin-top: 50px;
+	display: block;
+	margin: 0 auto;
+}
+
+.movies {
+	display: block;
+    margin-left: 60px;
+    margin-right: auto;
+}
+
+.label {
+	font-family: 'Nunito', sans-serif;
+	font-size: 16pt;
+	display: block;
+	width: 70vw;
+	max-width: 300px;
+	background-color: #30423b;
+}
+
+.submitUser {
+  margin-top: 10px;
+  margin-bottom: 100px;
+	font-family: 'Nunito', sans-serif;
+	font-size: 10pt;
+	text-decoration: none;
+	color: #000000;
+	background-color: #e8e8e8;
+	padding-bottom: 10px;
+	padding-top: 5px;
+  border: 4px solid #e8e8e8;
+}
+
+.submitUser:hover {
+  font-family: 'Nunito', sans-serif;
+  font-size: 10pt;
+  color: #e8e8e8;
+}
+
+#deleteName {
+  font-family: 'Nunito', sans-serif;
+  position: relative;
+  font-size: 18pt;
+  color:#ffffff;
+  width: 40vw;
+  max-width: 600px;
+  display: block;
+  margin: 10vh auto 20px auto;
+  text-align: right;
+	border: 2px solid #5b7f6f;
+}
+
+.deleteButton {
+  font-size: 12pt;
+	margin: 0px 20px 0px 40px;
+  padding: 2px 5px 2px 5px;
+  color: #000000;
+ 	background-color: #ffffff;
+}
+
+.deleteButton:hover {
+  color: #ffffff;
+	background-color: #5b7f6f;
+}
+
+.editForm{
+	background-color: #5b7f6f;
+	width: 240px;
+	padding: 10px;
+	margin: 5px;
+	margin-bottom: 15px;
+}
+
+.editForm input {
+	width: 220px;
+	margin-top: -20px;
+	margin-bottom: -10px;
+}
+
+.editForm label {
+	background-color: #5b7f6f;
+	width: 220px;
+	color: black;
+	text-align: center;
+	margin-bottom: 0;
+	font-size: 14px;
+}
+
+.editForm textArea {
+	margin-top: -20px;
+}
+
+#save {
+	background-color: #30423b;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	color: white;
+}
+
+#save:hover {
+	color: #000000;
+	background-color: #ffffff;
+	border: 2px solid #30423b;
+}
+
+.movDesc {
+	width: 50%;
+	font-size: 14px;
+	margin-top: 15px;
+}
+
+.addMovie {
+  font-size: 12pt;
+  color: #000000;
+ 	background-color: #ffffff;
+	margin-bottom: 25px;
+}
+
+.addMovie:hover {
+  color: #ffffff;
+	background-color: #5b7f6f;
+}
+
+.editUser {
+  font-size: 12pt;
+  color: #000000;
+ 	background-color: #ffffff;
+	margin-bottom: 25px;
+}
+
+.editUser:hover {
+  color: #ffffff;
+	background-color: #5b7f6f;
+}
